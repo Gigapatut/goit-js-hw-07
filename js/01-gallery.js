@@ -34,7 +34,7 @@ gallery.addEventListener("click", (e) => {
       instance.close();
     }
   });
-
+  gallery.removeEventListener("click", (e));  
 });
 
 
